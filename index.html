@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Trivia Land</title>
+</head>
+<body>
+    <label for="inp" class="inp">
+      <input type="text" id="amount" placeholder="&nbsp;">
+      <span class="label">Amount</span>
+      <span class="focus-bg"></span>
+    </label>
+    <div class="select" id="standard-select1">
+        <select id="standard-select">
+          <option value="knowledge">General Knowledge</option>
+          <option value="books">Entertainment: Books</option>
+          <option value="films">Entertainment: Film</option>
+          <option value="music">Entertainment: Music</option>
+          <option value="tv">Entertainment: Television</option>
+          <option value="science">Science & Nature</option>
+          <option value="cs">Science: Computers</option>
+          <option value="math">Science: Mathematics</option>
+          <option value="myth">Mythology</option>
+          <option value="sports">Sports</option>
+          <option value="geography">Geography</option>
+          <option value="history">History</option>
+          <option value="politics">Politics</option>
+          <option value="art">Art</option>
+          <option value="animals">Animals</option>
+          <option value="celebrities">Celebrities</option>
+        </select>
+        <span class="focus"></span>
+      </div>
+    <button class="button startbutton" onclick="myFunction()" id="submit">Start Game</button><br>
+    <label id="results"></label>
+    <button class="button truebutton" id="trueanswer">True</button>
+    <button class="button falsebutton" id="falseanswer">False</button>
+    <label id="user_answer"></label>
+</body>
+</html>
